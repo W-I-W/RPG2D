@@ -1,6 +1,6 @@
 # RPG2D
 Plugins:
-RJ
-Odin
-DoTween
+#RJ
+#Odin
+#DoTween
  
