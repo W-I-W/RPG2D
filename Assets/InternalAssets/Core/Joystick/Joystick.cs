@@ -18,7 +18,7 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     [SerializeField] private RectTransform m_Panel;
 
     private Camera m_Camera;
-    private const float MaxPosition = 64;
+    private const float MaxPosition = 80;
     public Vector2 direction { get; private set; }
     public bool isActive { get; private set; }
 

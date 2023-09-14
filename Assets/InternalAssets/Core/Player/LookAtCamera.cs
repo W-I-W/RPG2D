@@ -12,6 +12,7 @@ public class LookAtCamera : MonoBehaviour
 
     private void Update()
     {
-        m_LookAt.localPosition = m_Joystick.direction * m_ShiftDistance;
+        if (m_Joystick.isActive)
+            m_LookAt.localPosition = m_Joystick.direction * m_ShiftDistance;
     }
 }
