@@ -2,14 +2,12 @@
 
 using DG.Tweening;
 
+using System.Collections;
 using System.Reflection;
 
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.EnhancedTouch;
 
-using ETouch = UnityEngine.InputSystem.EnhancedTouch;
 
 public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
