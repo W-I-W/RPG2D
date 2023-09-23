@@ -6,6 +6,7 @@ using UnityEngine;
 public class DemoCharacter : MonoBehaviour
 {
     [SerializeField] private Animator m_Animator;
+
     public StockPlayer player { get; private set; }
 
 

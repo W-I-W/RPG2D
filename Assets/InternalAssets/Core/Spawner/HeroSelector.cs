@@ -59,6 +59,4 @@ public class HeroSelector : Inject
         m_SpriteSelect.transform.localPosition = Vector2.zero;
         m_Database.selectedPlayer = character.player;
     }
-
-
 }
